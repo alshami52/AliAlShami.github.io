@@ -626,8 +626,12 @@ section {
     background-clip: text;
 }
 
+.container--appointments .appointments-section {
+    padding: 2rem 0;
+}
+
 .appointments-section {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 .appointments-section:last-child {
@@ -635,13 +639,15 @@ section {
 }
 
 .appointments-section-head {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 700;
     font-style: italic;
-    color: var(--text-primary);
+    color: var(--primary-color);
     margin: 0 0 1rem;
+    padding-left: 0.75rem;
     padding-bottom: 0.35rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    border-left: 3px solid var(--primary-color);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .appointment-item {
@@ -745,9 +751,13 @@ section {
     background-clip: text;
 }
 
+.container--leadership .leadership-section {
+    padding: 2rem 0;
+}
+
 .leadership-section {
     margin-top: 0;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.15rem;
 }
 
 .leadership-subhead {
@@ -755,13 +765,13 @@ section {
     font-weight: 600;
     color: var(--primary-color);
     margin-top: 0;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.25rem;
     padding-left: 0.75rem;
     border-left: 3px solid var(--primary-color);
 }
 
 .leadership-item {
-    margin-bottom: 1rem;
+    margin-bottom: 0.6rem;
 }
 
 .leadership-item:last-child {
@@ -824,7 +834,7 @@ section {
 }
 
 .kaggle-item {
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.85rem;
     padding-left: 0;
 }
 
